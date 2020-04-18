@@ -1,0 +1,165 @@
+body{
+  font-family: "Montserrat";
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+p{
+  color: #8f8f8f;
+}
+
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.nav-items{
+  padding: 0 18px;
+}
+
+.nav-links{
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+.big-heading{
+
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+}
+#title{
+  background-color: #FF4C68;
+  color:#fff;
+}
+
+.title-img{
+  width: 50%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 30%
+}
+
+  /*-- Features --*/
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.section-heading{
+  font-size: 1.5rem;
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+.icon{
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #FF4C68;
+}
+
+
+/* testimonials*/
+
+#testimonials{
+
+  text-align: center;
+  background-color:#ef8172;
+  color: #fff;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonials-img{
+  width: 10%;
+  margin:20px;
+  border-radius: 100%
+}
+.pricing-heading{
+  font-family:'Montserrat';
+  font-weight:700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/*press*/
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+
+}
+
+
+
+/*pricing*/
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column{
+  padding:3% 2%;
+}
+/*cta*/
+#cta{
+  background-color:  #FF4C68;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+
+/*footer*/
+#footer{
+  background-color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+}
+.copyright{
+  color: grey;
+  font-weight: 450;
+}
+.icons{
+  margin: 20px 10px;
+}
+@media (max-width:1028px){
+  .title-img{
+    transform: rotate(0);
+    position: static;
+  }
+  #title{
+    text-align: center;
+  }
+  .big-heading{
+    font-size: 3rem;
+  }
+  .pricing-heading{
+    font-size: 2rem;
+  }
+}
